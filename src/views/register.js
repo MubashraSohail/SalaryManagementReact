@@ -14,7 +14,7 @@ const register=()=>{
         {
             let item={name,password,email};
             console.log(item);
-            let result= await fetch("http://localhost:8000/api/register",{
+            let result= await fetch("https://pruritic-trash.000webhostapp.com/api/register",{
                 method:"POST",
                 body:JSON.stringify(item),
                 headers:{
